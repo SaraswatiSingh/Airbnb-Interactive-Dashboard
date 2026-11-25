@@ -85,6 +85,7 @@ max_price = max(1000, int(df['price'].max()))
 # ----------------------------------------------------
 
 app = Dash(__name__)
+server = app.server
 
 
 app.layout = html.Div([
